@@ -1,15 +1,9 @@
 package easy;
 
+import easy.list.single.ListNode;
+
 public class LinkedListCycle_141 {
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     public static void main(String[] args) {
         LinkedListCycle_141 solution = new LinkedListCycle_141();

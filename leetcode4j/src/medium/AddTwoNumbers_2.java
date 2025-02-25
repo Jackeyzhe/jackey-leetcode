@@ -1,24 +1,8 @@
 package medium;
 
-import java.util.List;
+import easy.list.single.ListNode;
 
 public class AddTwoNumbers_2 {
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public static void main(String[] args) {
         AddTwoNumbers_2 solution = new AddTwoNumbers_2();
