@@ -4,7 +4,7 @@ public class FindMinimumInRotatedSortedArray_153 {
 
     public static void main(String[] args) {
         FindMinimumInRotatedSortedArray_153 solution = new FindMinimumInRotatedSortedArray_153();
-        int[] nums = new int[]{3,4,5,1,2};
+        int[] nums = new int[]{3, 4, 5, 1, 2};
         int result = solution.findMin(nums);
         System.out.println(result);
     }
